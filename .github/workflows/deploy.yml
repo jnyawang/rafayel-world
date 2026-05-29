@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ main ] # 当你推送代码到main分支时自动部署
+    branches: [ main ] 
   workflow_dispatch:
 
 permissions:
